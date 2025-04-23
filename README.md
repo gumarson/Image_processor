@@ -1,45 +1,56 @@
-Aprendi que a Power Platform é composta por:
+O que aprendi sobre os Serviços de IA no Microsoft Azure
+Ao estudar os serviços de Inteligência Artificial do Azure, pude entender como a plataforma oferece soluções robustas, escaláveis e integráveis para diferentes tipos de aplicações. Aqui estão os principais pontos que absorvi:
 
-Power Apps
+🌐 Serviços de IA e Suas Finalidades
+Azure Machine Learning é o serviço ideal para treinar, implantar e gerenciar modelos de machine learning, com suporte completo ao ciclo de MLOps.
 
-Power Automate
+Azure Cognitive Services inclui serviços de linguagem, fala, visão e tomada de decisão, que facilitam a integração de IA em aplicativos, mesmo sem conhecimento avançado em ciência de dados.
 
-Power BI
+🧠 Serviços de Linguagem
+A Análise de Texto permite identificar idioma, sentimentos, frases-chave e entidades.
 
-Power Pages
-Além disso, o Copilot Studio permite criar chatbots inteligentes com fluxos de conversa personalizados.
+O recurso de Extração de frases-chave retorna os principais conceitos de um texto.
 
-💬 Tópicos e Fallbacks
-Tópicos são acionados por gatilhos definidos.
+Para bases de conhecimento de bots, o serviço de Respostas às perguntas (QnA) é o mais adequado.
 
-Fallbacks lidam com entradas não reconhecidas e devem redirecionar o usuário com educação, não encerrar a conversa bruscamente.
+A compreensão da linguagem coloquial também faz parte das funcionalidades linguísticas, melhorando a interação com linguagem natural.
 
-🌿 Ramificações
-Permitem caminhos diferentes com base nas respostas do usuário.
+🔊 Serviços de Fala
+O Serviço de Fala permite transformar fala em texto e texto em fala, com suporte a tradução por voz.
 
-Tornam as conversas mais dinâmicas e personalizadas.
+Ele é essencial em aplicações como assistentes virtuais e acessibilidade.
 
-🔄 Variáveis e Entidades
-Variáveis armazenam dados capturados (como nome, número, etc).
+🌍 Serviços de Tradução
+O Tradutor do Azure é um serviço de tradução automática neural, compatível com qualquer sistema operacional, útil para tradução em tempo real e localização de conteúdo.
 
-Entidades identificam tipos de entrada (como datas ou termos personalizados).
+👁️ Serviços de Visão
+O serviço de Visão Computacional inclui funcionalidades como:
 
-Variáveis globais são reutilizáveis entre tópicos. Variáveis locais são limitadas ao tópico em que foram criadas.
+Análise de imagem
 
-Sinônimos aumentam a compreensão das entidades.
+Detecção facial
 
-🤖 Respostas Generativas
-Criadas automaticamente pela IA com base no contexto.
+Reconhecimento Óptico de Caracteres (OCR)
 
-Usam prompts claros e parâmetros como temperatura e top-p para controlar criatividade.
+Essas funções são valiosas para cenários que envolvem interpretação visual e automação de documentos.
 
-Excelente para responder perguntas complexas ou inesperadas.
+🛡️ Segurança e Acesso
+Os serviços do Azure podem ser acessados por:
 
-✅ Boas Práticas
-Nomear variáveis e entidades de forma descritiva.
+Chaves de autenticação
 
-Testar fluxos e entidades frequentemente.
+Tokens de autorização
 
-Evitar alterações em ambientes durante horários de pico.
+Endpoints REST
 
-Usar soluções para organizar e versionar todos os artefatos do projeto.
+❌ FTP não é um método válido para consumo desses serviços.
+
+🚫 Serviços que não fazem parte do Azure
+Amazon Kendra e S3 são da AWS, não do Azure.
+
+Serviços como Azure Blockchain ou Azure MA Studio não fazem parte do portfólio principal de IA do Azure.
+
+📌 Princípios de IA Responsável
+A Transparência é um dos princípios centrais, garantindo que o uso da IA seja compreensível, ético e auditável.
+
+Aprender tudo isso me mostrou que a IA no Azure vai muito além de simples APIs — ela oferece uma base sólida para desenvolver soluções inteligentes, acessíveis e seguras em praticamente qualquer cenário de negócio.
